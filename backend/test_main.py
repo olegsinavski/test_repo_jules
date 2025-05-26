@@ -1,7 +1,7 @@
 from fastapi.testclient import TestClient
 # Ensure 'main' is resolvable, adjust if your FastAPI app instance is named differently or located elsewhere
 # If main.py is in the same directory (backend) and app is named 'app':
-from .main import app
+from main import app
 
 
 client = TestClient(app)
